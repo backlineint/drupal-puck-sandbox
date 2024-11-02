@@ -1,0 +1,22 @@
+uuid: 5e0d8497-779d-430c-bc2c-74c73ebae498
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.deck.field_slides
+    - node.type.deck
+  module:
+    - user
+id: node.deck.teaser
+targetEntityType: node
+bundle: deck
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_slides: true

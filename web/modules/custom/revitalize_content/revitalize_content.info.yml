@@ -8,3 +8,6 @@ dependencies:
 default_content:
   node:
     - 993ec287-ddea-42d7-bf3e-f71b6c773ba1
+    - 4d7d6ae2-0982-46b6-b296-ec4fc68fc5d1
+    # Deck
+    - 76d61deb-9712-4d29-a93e-bdbd29ba96a5

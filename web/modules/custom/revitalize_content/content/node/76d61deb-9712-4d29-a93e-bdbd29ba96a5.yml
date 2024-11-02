@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 76d61deb-9712-4d29-a93e-bdbd29ba96a5
+  bundle: deck
+  default_langcode: en
+  depends:
+    993ec287-ddea-42d7-bf3e-f71b6c773ba1: node
+    4d7d6ae2-0982-46b6-b296-ec4fc68fc5d1: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'NEDCamp 2024'
+  created:
+    -
+      value: 1730584295
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_slides:
+    -
+      entity: 993ec287-ddea-42d7-bf3e-f71b6c773ba1
+    -
+      entity: 4d7d6ae2-0982-46b6-b296-ec4fc68fc5d1

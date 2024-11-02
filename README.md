@@ -7,10 +7,9 @@
 
 ## Todos
 
-- [] Update path aliases for slides
-- [] Create deck content type
 - [] Start outlining talk in slides
 - [] Come up with a way to export slides for publishing
+- [defer] Update path aliases for slides
 
 ## History
 

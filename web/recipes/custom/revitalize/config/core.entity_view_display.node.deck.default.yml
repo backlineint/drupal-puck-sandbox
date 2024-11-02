@@ -1,0 +1,28 @@
+uuid: b469ff28-9a58-40d5-99e8-e8dd4720d2d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.deck.field_slides
+    - node.type.deck
+  module:
+    - user
+id: node.deck.default
+targetEntityType: node
+bundle: deck
+mode: default
+content:
+  field_slides:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,3 +1,4 @@
 #!/bin/bash
 
 ddev drush default-content:export-module revitalize_content
+echo "Content exported to web/modules/custom/revitalize_content"
