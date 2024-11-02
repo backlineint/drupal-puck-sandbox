@@ -10,3 +10,27 @@ config:
     system.theme:
       simple_config_update:
         default: "revitalize"
+    block.block.revitalize_site_branding:
+      simple_config_update:
+        status: false
+    block.block.revitalize_search_form_narrow:
+      simple_config_update:
+        status: false
+    block.block.revitalize_main_menu:
+      simple_config_update:
+        status: false
+    block.block.revitalize_search_form_wide:
+      simple_config_update:
+        status: false
+    block.block.revitalize_account_menu:
+      simple_config_update:
+        status: false
+    block.block.revitalize_page_title:
+      simple_config_update:
+        status: false
+    block.block.revitalize_powered:
+      simple_config_update:
+        status: false
+    block.block.revitalize_syndicate:
+      simple_config_update:
+        status: false
