@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ddev drush default-content:export-module revitalize_content

@@ -33,3 +33,8 @@ default:
     -
       alias: ''
       langcode: en
+  body:
+    -
+      value: '<h1>Housekeeping</h1><p>Placeholder body content updated.</p>'
+      format: full_html
+      summary: ''

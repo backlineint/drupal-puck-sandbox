@@ -3,10 +3,11 @@
 ## Tasks
 
 - Install site with `ddev install`
-- Export slide content with `ddev drush default-content:export-module revitalize_content`
+- Export slide content with `ddev export-content`
 
 ## Todos
 
+- [] Update path aliases for slides
 - [] Create deck content type
 - [] Start outlining talk in slides
 - [] Come up with a way to export slides for publishing
