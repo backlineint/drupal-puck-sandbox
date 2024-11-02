@@ -1,0 +1,12 @@
+name: "Revitalize"
+description: "Supporting content for Revitalizing Drupal FE talk."
+type: "Site"
+
+install:
+  - revitalize
+
+config:
+  actions:
+    system.theme:
+      simple_config_update:
+        default: "revitalize"

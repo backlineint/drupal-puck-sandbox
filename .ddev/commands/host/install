@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ddev start
+ddev composer install
+ddev drush site:install -y
+
+# Apply the recipe
+ddev exec -d /var/www/html/web php core/scripts/drupal recipe recipes/custom/revitalize
+
+# You know, caches
+ddev drush cr
+
+# Open Drupal in browser
+ddev drush uli | xargs open
