@@ -6,6 +6,7 @@ install:
   - revitalize
   - default_content
   - devel
+  - revitalize_content
 
 config:
   actions:

@@ -1,0 +1,10 @@
+name: "Revitalize Content"
+type: module
+description: "Slide Content for Revitalizing Drupal FE talk."
+core_version_requirement: ^9.1 || ^10 || ^11
+package: "custom"
+dependencies:
+  - default_content:default_content
+default_content:
+  node:
+    - 993ec287-ddea-42d7-bf3e-f71b6c773ba1
