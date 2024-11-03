@@ -10,6 +10,7 @@ const config = {
           type: "text",
         },
       },
+      defaultProps: { children: "Heading" },
       render: ({ children }) => {
         return <h1>{children}</h1>;
       },
