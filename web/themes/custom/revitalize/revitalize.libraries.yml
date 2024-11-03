@@ -49,6 +49,8 @@ base:
         weight: -10
       css/components/ui-dialog.css:
         weight: -10
+    theme:
+      css/theme/theme.css: {}
 dialog:
   version: VERSION
   css:
@@ -106,3 +108,10 @@ user:
     component:
       css/components/user.css:
         weight: -10
+
+puck_editor:
+  js:
+    app/dist/assets/main.js: {}
+  css:
+    component:
+      app/dist/assets/main.css: {}
