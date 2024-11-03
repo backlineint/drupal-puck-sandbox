@@ -8,6 +8,7 @@
 ## Todos
 
 - [] Start outlining talk in slides
+- [] Experiment with Puck for slides
 - [] Come up with a way to export slides for publishing
 - [defer] Update path aliases for slides
 
