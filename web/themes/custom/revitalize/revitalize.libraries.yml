@@ -1,9 +1,6 @@
 base:
   version: VERSION
   css:
-    # base:
-    #   css/base/open-props.min.css: {}
-    #   css/base/pico.conditional.min.css: {}
     component:
       css/components/action-links.css:
         weight: -10
