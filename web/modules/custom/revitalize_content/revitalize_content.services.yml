@@ -1,0 +1,5 @@
+services:
+  revitalize_content.route_subscriber:
+    class: Drupal\revitalize_content\EventSubscriber\RevitalizeContentRouteSubscriber
+    tags:
+      - { name: event_subscriber }

@@ -62,7 +62,7 @@
  */
 #}
 
-{{ attach_library('revitalize/puck_editor') }}
+{# {{ attach_library('revitalize/puck_editor') }} #}
 
 {%
   set classes = [
@@ -96,9 +96,9 @@
   {% endif %}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {# {{ content }} #}
+    {{ content }}
   </div>
 
 </article>
 
-<div id="root"></div>
+{# <div id="root"></div> #}

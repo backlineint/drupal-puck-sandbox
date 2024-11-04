@@ -112,3 +112,4 @@ puck_editor:
   css:
     component:
       app/dist/assets/main.css: {}
+      css/theme/theme.css: {}

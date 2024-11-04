@@ -1,0 +1,7 @@
+revitalize_content.add:
+  path: '/revitalize-content/add'
+  defaults:
+    _title: 'Add'
+    _controller: '\Drupal\revitalize_content\Controller\RevitalizeContentController'
+  requirements:
+    _permission: 'access content'

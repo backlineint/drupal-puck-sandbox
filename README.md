@@ -8,7 +8,10 @@
 ## Todos
 
 - [] Start outlining talk in slides
-- [] Experiment with Puck for slides
+- [] Experiment with Puck for slides - try to take over node add slide.
+- Create new slides and save content.
+- Edit slide content
+- Save slide content
 - [] Come up with a way to export slides for publishing
 - [defer] Update path aliases for slides
 
