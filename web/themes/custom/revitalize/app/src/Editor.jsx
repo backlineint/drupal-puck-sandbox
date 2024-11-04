@@ -1,5 +1,6 @@
 import { Puck } from "@measured/puck";
 import "@measured/puck/puck.css";
+import "./index.css";
 
 // Create Puck component config
 const config = {
@@ -12,7 +13,7 @@ const config = {
       },
       defaultProps: { children: "Heading" },
       render: ({ children }) => {
-        return <h1>{children}</h1>;
+        return <h1 className="text-5xl m-10 font-bold">{children}</h1>;
       },
     },
   },
