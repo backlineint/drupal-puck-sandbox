@@ -1,4 +1,4 @@
-# A Look at the Ongoing Efforts to Revitalize Drupal’s Front End Talk
+# Drupal Puck Sandbox
 
 ## Tasks
 
